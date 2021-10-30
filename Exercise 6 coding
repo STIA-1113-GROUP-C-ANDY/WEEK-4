@@ -1,0 +1,19 @@
+package selfprogramming;
+
+public class TheMathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int b = 8;
+		int a = 3;
+		int c = 4;
+		double result;
+		
+		result = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		System.out.println("The result is");
+		System.out.printf("%.2f" , result);
+		
+	}
+
+}
