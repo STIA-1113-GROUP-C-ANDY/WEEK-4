@@ -1,0 +1,41 @@
+package myScanner;
+
+import java.util.Scanner;
+
+public class Revision {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number;
+		double value;
+		boolean average1 = true;
+		boolean average2 = false;
+		
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter an Integer:");
+		number  = scan.nextInt();
+		
+		System.out.println("Enter double value:");
+		value = scan.nextDouble();
+		
+		double average = (number + value)/2;
+		
+		
+		System.out.println("Integer is:" + number);
+		System.out.println("The double value is:" + value );
+		System.out.println("The value of average is:" + average);
+		
+		System.out.println(number > value);
+		System.out.println(number == value);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
